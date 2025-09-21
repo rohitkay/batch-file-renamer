@@ -1,5 +1,7 @@
 #import operating system module
 import os
 
-#set current directory path
-directory = ""
+#Function to change the directory
+def batch_rename():
+    #set current directory path
+    directory = ""
