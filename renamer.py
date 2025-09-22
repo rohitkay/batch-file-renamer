@@ -9,3 +9,7 @@ def batch_rename():
 
     #get input for prefix to use
     prefix = input("Plese type in the prefix to add to all files")
+
+    #check if file path is valid
+    if os.path.isdir(directory) == False:
+        print("Error: the directory path is invalid")
