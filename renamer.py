@@ -16,4 +16,6 @@ def batch_rename():
     
     #folder_items
     folder_items = os.listdir(directory)
-    
+
+    for file in folder_items:
+        new_name = prefix + file
