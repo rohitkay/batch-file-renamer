@@ -12,4 +12,8 @@ def batch_rename():
 
     #check if file path is valid
     if os.path.isdir(directory) == False:
-        print("Error: the directory path is invalid")
+        print("Error: the directory path is invalid")   
+    
+    #folder_items
+    folder_items = os.listdir(directory)
+    
