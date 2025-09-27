@@ -18,4 +18,6 @@ def batch_rename():
     folder_items = os.listdir(directory)
 
     for file in folder_items:
+        old_path = os.path.join(directory,file)
         new_name = prefix + file
+        
