@@ -22,5 +22,5 @@ def batch_rename():
         new_name = prefix + file
         new_path = os.path.join(directory,new_name)
 
-        os.rename(old_path,new_name)
+        os.rename(old_path,new_path)
         print(f"renamed: {file} -> {new_name}")
