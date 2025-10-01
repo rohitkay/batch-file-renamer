@@ -24,3 +24,5 @@ def batch_rename():
 
         os.rename(old_path,new_path)
         print(f"renamed: {file} -> {new_name}")
+    
+    print("The files have been batch renamed")
